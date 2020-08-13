@@ -1,4 +1,4 @@
-const { createServiceLock } = require(`gatsby-core-utils/node`)
+const { createServiceLock } = require(`gatsby-core-utils`)
 const execa = require(`execa`)
 
 const startServer = async () => {
